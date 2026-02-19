@@ -1,0 +1,26 @@
+git init
+👉 Current folder ko Git repository banata hai.
+
+git status
+👉 Batata hai kaun si files modified / staged / untracked hain.
+
+git add .
+👉 Saari files staging area me daalta hai.
+
+git add fileName
+👉 Sirf specific file ko staging me daalta hai.
+
+git commit -m "first commit"
+👉 Staged changes ka snapshot save karta hai.
+
+git branch -M main
+👉 Current branch ka naam main set karta hai.
+
+git remote add origin <repo-url>
+👉 Local repo ko GitHub remote repo se connect karta hai.
+
+git push -u origin main
+👉 Local main branch ko GitHub pe upload karta hai.
+
+🧠 One-line summary:
+Add → Commit → Connect → Push 🔥
