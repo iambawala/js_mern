@@ -27,3 +27,23 @@ Add → Commit → Connect → Push 🔥
 
 
 now changed
+today new commands for push , create and merge 
+
+1. to check current branch
+git branch
+
+2. to check current branch + create new branch at same time
+git checkout -b brach_Name
+
+3. to check status
+git status
+
+4. now if we want to change something and push it to new branch or main branch first we have to make chhanges in our local repo and then after that we
+git add . (is command se jitne bhi files mai humne change kiya hai only vo show hogi jinme nhi kiya vo show nhi hogi red ya green colour mai)
+git add file_name (isse hum only koi ek particular file ko push krege) 
+
+5. to check logs and all info about push request
+git log
+
+6. ro push file into github repository from your local repo
+git push -u origin new_branch_name / branch_name
